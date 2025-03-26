@@ -1,0 +1,107 @@
+.titulo{
+    text-align: center;
+    background-color: rgb(8, 83, 150);
+    padding: 20px;
+    margin: -15px;
+}
+html{
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+
+.produtos{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.produtos{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.clientes{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.parceiros{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.missao{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.contatos{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.produtos h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.produtos p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clientes h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.clientes p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.parceiros h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.parceiros p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.missao h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.missao p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contatos h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.contatos p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.saiba{
+        background-color: #ccc;
+        padding: 17px;
+        width: 83px;
+        height: 20px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        margin-left: 4px;
+}

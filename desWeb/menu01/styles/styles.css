@@ -1,0 +1,79 @@
+#principal{
+    background-color: #ccc;
+    height: 15vh;
+}
+.menuHorizontal{
+    background-color: rgba(0,0,0,.3);
+}
+.menuHorizontal::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.menuHorizontal ul li{
+    display: inline;
+}
+.menuHorizontal ul{
+    padding: 1vh;
+    margin: 0vh;
+    list-style: none;
+    text-align: right;
+
+}
+.menuHorizontal ul li a{
+    padding: 0.2vw 5vh;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.menuHorizontal ul li a:hover{
+   background-color: blue;
+   font-size: 20px;
+   font-weight: bold;
+}
+p{
+    font-weight: bold;
+    font-size: 26px;
+}
+#politica{
+    background-color: #918e09;
+    height: 10vw;
+}
+#esportes{
+    background-color: greenyellow;
+    height: 20vw;
+}
+#entretenimento{
+    background-color: aqua;
+    height: 10vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#economia{
+    background-color: gray;
+    height: 10vw;
+}
+#mundo{
+    background-color: #918e09;
+    height: 15vw;
+}
+footer h1{
+    background-color: bisque;
+}
+.voltarTopo{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    text-decoration: none;
+    color: white;
+    padding: 2vh;
+    background-color: rgba(0,0,0,.3);
+    font-size: 12px;
+}
+.voltarTopo:hover{
+    background-color: rgba(0,0,0,.6);
+}

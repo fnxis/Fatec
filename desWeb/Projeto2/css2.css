@@ -1,0 +1,117 @@
+.titulo{
+    text-align: center;
+    background-color: rgb(85, 204, 30);
+    padding: 20px;
+    margin: -15px;
+}
+html{
+    background-color: #074b1e;
+    font-family: sans-serif;
+}
+
+.politica{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.fofocas{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.entretenimento{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.esportes{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.poemas{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.economia{
+    background-color: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.politica h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.politica p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.entretenimento h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.entretenimento p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fofocas h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.fofocas p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.esportes h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.esportes p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.economia h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.economia p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.poemas h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.poemas p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.saiba{
+        background-color: #ccc;
+        padding: 17px;
+        width: 83px;
+        height: 20px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        margin-left: 4px;
+}
