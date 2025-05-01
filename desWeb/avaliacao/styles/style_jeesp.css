@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menu1{
+    background-color: rgb(219,219,219);
+    height: 100vh;
+}
+.menu2{
+    background-color: rgb(10,165,177);
+    height: 100vh;
+}
+.menu3{
+    background-color: rgb(12,173,135);
+    height: 100vh;
+}
+
+.menu1 header h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.menu2 header h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.menu3 header h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.je{
+    float: right;
+    width: 1000px;
+}
+.texto1 p{
+    font-size: 40px;
+    width: 1100px;
+    margin-top: 40px;
+    margin-left: 10%;
+    text-align: justify;
+}
+.texto2 p{
+    font-size: 30px;
+    width: 1100px;
+    margin-top: 190px;
+    margin-left: 10%;
+    text-align: justify;
+}
+.texto2 ul{
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.texto3{
+    margin-left: 10%;
+    font-size: 50px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.imagens {
+    text-align: center;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imagens img{
+    width: 400px;
+    height: auto;
+}
+.home a{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(27, 22, 22, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nomes {
+    text-align: center;
+    display: flex;
+    margin-top: 170px;
+    justify-content: start;
+
+}
+.nomes ul li{
+    display: inline-block;
+}
+
+.voleif{
+    position: absolute;
+    left: 530px;
+    font-size: 40px;
+    top: 150vh;
+}
+.Basquetebol{
+    position: absolute;
+    left: 120px;
+    font-size: 40px;
+    top: 150vh;
+}
+.voleim{
+    position:absolute;
+    right:70px;
+    font-size: 40px;
+    top: 150vh;
+}
+.Xadrez{
+    position: absolute;
+    right: 650px;
+    font-size: 40px;
+    top: 150vh;
+}
+.grupo1{
+    margin-left: 10%;
+    font-size: 50px
+}
+.imagens2{
+    text-align: center;
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imagens2 img{
+    width: 400px;
+    height: 300px;
+}
+.bloco2{
+    text-align: center;
+    display: flex;
+    margin-top: 170px;
+    justify-content: start;
+}
+.titulos1 li{
+    display: inline-block;
+}
+.Xadrez1{
+    position: absolute;
+    left: 15%;
+    font-size: 40px;
+    top: 250vh;
+}
+.Atletismo{
+    position: absolute;
+    left: 45%;
+    font-size: 40px;
+    top: 250vh;
+}
+.voleim1{
+    position: absolute;
+    right: 9%;
+    font-size: 40px;
+    top: 250vh;
+}

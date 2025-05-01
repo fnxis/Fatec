@@ -1,0 +1,301 @@
+@font-face {                                  /*Fonte Space-mono usada na logo*/              
+    font-family: "space-mono";
+    src:url(/PI/Fonts/SpaceMono-Regular.ttf),
+}
+@font-face {                                  /*Fonte Oswald usada no contatos*/
+    font-family: "itim";
+    src: url(/PI/Fonts/Itim-Regular.otf);
+}
+@font-face {                                  /*Fonte Oswald usada no contatos*/
+    font-family: "oswald";
+    src: url(/PI/Fonts/Oswald-Regular.ttf);
+}
+
+*{  
+    margin: 0;              /*configuraçao para padronizar o site em todos navegadores*/
+    padding: 0; 
+    list-style: none;
+}
+
+.background-color{
+    background-color: #444040;
+    height: 48px;
+    border-radius: 10px;
+    
+}
+.terminal ul li.cores1{
+    background-color: red;
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}  
+.terminal ul li.cores2{
+    background-color: yellow;
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}  
+.terminal ul li.cores3{
+    background-color: #00FF00;
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+}  
+.full-background{
+    background-color: #181717;
+    height: 230px;
+}
+.image{
+    float: left;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.logo h1{
+    color: white;
+    position: absolute;
+    top:96px;
+    left: 200px;    
+    font-family: "space-mono";
+    font-size: 40px;
+    font-weight: 100;
+}
+.menus{
+    position: absolute;
+    right: 3vh;
+    top: 190px;
+    cursor: pointer;
+}
+.menus ul{
+    display: inline-flex;
+    gap: 7vh;
+    margin-right: 3vh;
+
+}
+.menus ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "itim";
+    padding-bottom: 17px;
+}
+.dropdown{
+    display: none;
+    background-color: #00315c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
+    z-index: 1;
+    position: absolute;
+    right: 37%;
+    top: 4vh;
+    transition: all 3s;
+    border-radius: 10px;
+    color: white;
+}
+.dropdown a{
+    color: rgb(7, 6, 6);
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "itim";
+}
+.menus4:hover + .dropdown,                  /*Ao passar o mouse em cima do menu4 ira aparecer o dropdown*/
+.dropdown:hover{display: block;}            /*ao passar o mouse em cima do dropdown ele ficara fixo na tela*/
+
+.dropdown a:hover{
+    background-color: rgba(0,0,0,.1);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.centro{
+    height: 66.5vh;
+    background-color: #30363D;
+}
+.final{
+    height: 118vh;
+    background-color: #0F0D16;
+}
+.imagei{
+    background-color:#fff;
+    height:500px;
+    width: 800px;
+    left: 200px;
+    top: 30%;
+    position: absolute;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagei1{
+    background-color:#fff;
+    height:220px;
+    width: 600px;
+    left: 1100px;
+    top: 30%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.imagei2{
+    background-color:#fff;
+    height:220px;
+    width: 600px;
+    left: 1100px;
+    top: 59%;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    background-color:#444040 ;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+}
+.info {
+    text-align: start;
+    margin-left: 4vh;
+}
+.info .facul{
+    font-size: 20px;
+    font-family: "oswald";
+    color: white;
+}
+.info .contato{
+    font-size: 20px;
+    font-family:"oswald";
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info h1{
+    color: white;
+    font-size:40px;
+    font-family: "oswald";
+    padding-top: 10px;
+}
+.copi{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.conteudo2{
+    height: 98vh;
+    color: white;
+    font-family: "itim";
+    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
+    transition: all 5s;
+}
+.patch{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.final .conteudo2 ul{
+    margin-left: 100px;
+    color: white;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.conteudo2 ul li{
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.updates{
+    position: absolute;
+    top: 120vh;
+    right: 45vh;
+}
+
+.updates li{
+    padding: 30px;
+    margin-top: 30px;
+    background-color: red;
+}
+
+.conteudo3{
+    color: white;
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    font-family: "itim";
+    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
+    z-index: 2;
+    position: absolute;
+    left: 12%;
+    top: 108vh;
+    transition: all 3s;
+    border-radius: 10px; 
+    display: none;
+    
+}.conteudo3 ul li{
+    margin-top: 40px;
+}
+.conteudo3 h1{
+    position: absolute;
+    left: 69.8%;
+    top: -17.88vh;
+}
+.botao{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    padding: 10px 20px;
+  background-color: #00315c;
+}
+.botao2{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    padding: 10px 20px;
+  background-color: #00315c;
+  top: 30vh;
+}
+.botao:hover,.botao2:hover {
+    background-color: #00318c;
+  }
+
+/* Configuração inicial dos elementos */
+#elemento1 {
+    display: block; /* Visível inicialmente */
+}
+
+#elemento2 {
+    display: none; /* Oculto inicialmente */
+}
+
+/* Quando o checkbox estiver marcado */
+#alternador:checked ~ .final #elemento1 {
+    display: none; /* Oculta o primeiro elemento */
+}
+
+#alternador:checked ~ .final #elemento2 {
+    display: block; /* Mostra o segundo elemento */
+}
+.rodape{
+    position: absolute;
+    bottom: -108vh;
+    width: 99vw;
+}

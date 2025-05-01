@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>bootsrap</title>
+<style>
+  .botao{
+    color: black;
+  }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-0">
+                <label for="">nome do proprietario</label>
+                <input type="text" class="form-control" name="nomeProprietario">
+            </div>
+            <div class="col-md-2 col-md-offset-1">
+                <label for="">Apelido</label>
+                <input type="text" class="form-control" name="apelidoProprietario">
+            </div>
+            <div class="col-md-2 col-md-offset-1">
+                <label for="">dt.cadastro</label>
+                <input type="text" class="form-control" name="dataCadastroProprietario">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">Placa</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">Marca</label>
+                <select class="form-control" id="marca">
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                </select>
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">modelo</label>
+                    <input type="text" class="form-control" name="placa">
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">Cor</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">KM</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+            <div class="col-md-1 col-md-offset-0">
+                <label for="">Ano fabr</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+            <div class="col-md-1 col-md-offset-0">
+                <label for="">Ano modelo</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-0 text-center ">
+                <br>
+                <label class="radio-inline" for="">
+                    <input type="radio" name="optipo" value="nacional" checked/>Nacional
+                </label>
+                <label class="radio-inline" for="">
+                    <input type="radio" name="optipo" value="Importado" checked/>importado
+                </label>
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">categoria</label>
+                <select class="form-control" id="marca">
+                    <option value="">automovel</option>
+                    <option value="">onibus</option>
+                    <option value="">motos</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                    <option value="">chevrolet</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="">Acessorios</label>
+                <input type="text" class="form-control" name="Acessorios">   
+            </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">Tipo Combustivel</label>
+                <select  class="form-control" id="combustivel">
+                    <option value="">flex</option>
+                    <option value="">gasolina</option>
+                    <option value="">alcool</option>
+                    <option value="">diesel</option>
+                </select>
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">Cilindrada</label>
+                <select  class="form-control" id="cilindrada">
+                    <option value="">1.0</option>
+                    <option value="">1.4</option>
+                    <option value="">1.8</option>
+                    <option value="">2.0</option>
+                    <option value="">2.4</option>
+                    <option value="">2.8</option>
+                </select>
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">Chassi</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <label for="">No Renavan</label>
+                <input type="text" class="form-control" name="placa">
+            </div>
+             
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <label for="">Acessorios</label>
+            <input type="checkbox" id="check" idname=""> Insufilme
+            <input type="checkbox" id="check" idname=""> Rodas
+            <input type="checkbox" id="check" idname=""> Pintura
+            <input type="checkbox" id="check" idname=""> Farol xenon
+            <input type="checkbox" id="check"> Lavada
+        </div>
+    </div>
+    <hr>
+    <div>
+        <button type="button" onclick="salvar()" class="btn btn-success">Success</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

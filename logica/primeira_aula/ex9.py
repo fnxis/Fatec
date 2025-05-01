@@ -1,15 +1,14 @@
-quantasBebidas=int(input('quantas bebidas voce consumiu?: '))
-quantosPratos=int(input('quantos pratos voce consumiu?: '))
-desconto=int(input('qual o desconto para ser aplicado?: '))
+nome=input('qual o nome do aluno?: ')
+valor=int(input('qual o valor da mensalidade?: '))
+dias=int(input('quantos dias voce treina por mes?: '))
 
-bebida=5
-prato=15
+def desconto(valor):
+    final=valor*1.1
+    return final
 
-totalBebida=bebida*quantasBebidas
-totalPratos=prato * quantosPratos
-contaFinal= totalBebida+totalPratos
+descontoFinal=desconto(valor)
 
-descontoFinal=contaFinal*desconto/100
-contaDepoisDoDesconto=contaFinal-descontoFinal
-
-print(f'Voce consumiu R${totalPratos} em pratos principais\nVoce consumiu R${totalBebida} em bebidas\nO valor total é R${contaFinal}\nO valor final com desconto é de R${contaDepoisDoDesconto}')
+if dias>15:
+    print(f"{nome}, por treinar mais de 15 dias no mes voce recebeu 10% de desconto e o valor de sua parcela neste mes passou de {valor} para {descontoFinal:.2f}")
+else:
+    print(f'{nome},valor da mensalidade: {valor}')
